@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ThymeleafCrudExample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ThymeleafCrudExample</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ThymeleafCrudExample.war">
+      <element id="artifact" artifact-name="ThymeleafCrudExample:war exploded" />
+    </root>
+  </artifact>
+</component>
